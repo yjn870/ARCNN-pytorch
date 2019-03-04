@@ -49,7 +49,7 @@ When training begins, the model weights will be saved every epoch. <br />
 Data augmentation option **--use_augmentation** performs random rescale and rotation. <br />
 If you want to train quickly, you should use **--use_fast_loader** option.
 
-```python3
+```bash
 python main.py --arch "ARCNN" \
                --images_dir "" \
                --outputs_dir "" \
@@ -68,7 +68,7 @@ python main.py --arch "ARCNN" \
 
 Output results consist of image compressed with JPEG and image with artifacts reduced.
 
-```python3
+```bash
 python example --arch "ARCNN" \
                --weights_path "" \
                --image_path "" \
