@@ -1,4 +1,4 @@
-# Deep Convolution Networks for Compression Artifacts Reduction
+# AR-CNN, Fast AR-CNN
 
 This repository is implementation of the "Deep Convolution Networks for Compression Artifacts Reduction". <br />
 In contrast with original paper, It use RGB channels instead of luminance channel in YCbCr space and smaller(16) batch size.
