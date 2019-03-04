@@ -50,7 +50,7 @@ Data augmentation option **--use_augmentation** performs random rescale and rota
 If you want to train quickly, you should use **--use_fast_loader** option.
 
 ```bash
-python main.py --arch "ARCNN" \
+python main.py --arch "ARCNN" \     # ARCNN, FastARCNN
                --images_dir "" \
                --outputs_dir "" \
                --jpeg_quality 10 \
@@ -69,7 +69,7 @@ python main.py --arch "ARCNN" \
 Output results consist of image compressed with JPEG and image with artifacts reduced.
 
 ```bash
-python example --arch "ARCNN" \
+python example --arch "ARCNN" \     # ARCNN, FastARCNN
                --weights_path "" \
                --image_path "" \
                --outputs_dir "" \
