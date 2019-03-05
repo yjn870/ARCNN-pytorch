@@ -28,8 +28,8 @@ In contrast with original paper, It use RGB channels instead of luminance channe
     	</td>
     </tr>
     <tr>
-        <td><center>AR-CNN</center></td>
-        <td><center>Fast AR-CNN</center></td>
+        <td><center><b>AR-CNN</b></center></td>
+        <td><center><b>Fast AR-CNN</b></center></td>
     </tr>
     <tr>
         <td>
