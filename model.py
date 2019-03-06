@@ -17,7 +17,7 @@ class ARCNN(nn.Module):
         self._initialize_weights()
 
     def _initialize_weights(self):
-        for m in self.parameters():
+        for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.normal_(m.weight, std=0.001)
 
